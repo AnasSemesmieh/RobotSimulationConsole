@@ -21,7 +21,6 @@ function commandHandler(command) {
 
   if (placeRGX != null) {
     cmd = "placed"
-    console.log('xxxx', placeRGX)
   }
 
   if (robot.placed || cmd == 'placed') {
