@@ -8,7 +8,7 @@ describe('Robot Simulation Tests', () => {
         it('Trying to move before placement', () => {
             index.commandHandler('move')
             var output = index.commandHandler('reportJSON')
-            expect(output).toEqual("Ooops I robot not placed yet! Try a valid place command to begin")
+            expect(output).toEqual("Ooops the robot is not placed yet! Try a valid place command to begin")
         })
     })
 

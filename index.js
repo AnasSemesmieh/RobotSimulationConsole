@@ -47,7 +47,7 @@ module.exports.commandHandler = (command) => {
         return msg
     }
   } else {
-    var msg = "Ooops I robot not placed yet! Try a valid place command to begin"
+    var msg = "Ooops the robot is not placed yet! Try a valid place command to begin"
     console.log(msg)
     return msg
   }
